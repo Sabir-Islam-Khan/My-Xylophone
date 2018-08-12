@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyXylophone</string>
+    <string name="CNote">This is for C note</string>
+    <string name="DNote">This is for D note </string>
+    <string name="ENote">This is for E Note</string>
+    <string name="FNote">This is for F note</string>
+    <string name="GNote">This is for G note</string>
+    <string name="ANote">This is for A note</string>
+    <string name="BNote">This is for B note</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:orientation="vertical">-->
+    <Button
+        android:id="@+id/Cnote"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="?android:attr/colorActivatedHighlight"
+        android:contentDescription="@string/CNote" />
+
+    <Button
+        android:id="@+id/Dnote"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ffaa00"
+        android:contentDescription="@string/DNote" />
+
+    <Button
+        android:id="@+id/Enote"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ffe433"
+        android:contentDescription="@string/ENote" />
+
+    <Button
+        android:id="@+id/Fnote"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_blue_dark"
+        android:contentDescription="@string/FNote" />
+
+    <Button
+        android:id="@+id/Gnote"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:contentDescription="@string/GNote" />
+
+    <Button
+        android:id="@+id/Anote"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_green_light"
+        android:contentDescription="@string/ANote" />
+
+    <Button
+        android:id="@+id/Bnote"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_purple"
+        android:contentDescription="@string/BNote" />
+
+</LinearLayout>
